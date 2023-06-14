@@ -2,43 +2,45 @@
 
 ## Introduction
 
-The IoT Hack of the Century will take you on a whirlwind tour in the world of IoT and how it is being used in the modern world of mineral extraction in exotic locations like the Arctic and the wilds of South Africa.
+This hack will give you hands on experience in migrating from on-prem Elasticsearch clusters to Elasticsearch Service (ESS) on Azure.
 
 ## Learning Objectives
 
-In this hack you will be solving the common business problem that companies in the mineral extraction industry face and how IoT solutions from Azure are brought to bare
+In this hack you will solve common challenges companies face when migrating from their on-prem Elasticsearch cluster to Azure. Upon completion, participants will learn how to:
 
-1. Provision an IoT Hub
-2. Set up an IoT Edge device
-3. Bring Azure Sphere to your solution for scale and resiliency
+1. Assess their on-prem clusters looking at compute and disk sizing
+2. Correctly size their Elasticsearch Service cluster in Azure based off compute and storage
+3. Replicate data using snapshots and/or cross-cluster replication
+4. Do a cutover and validate data consistency in their Elasticsearch Service cluster in Azure
+5. Secure network connectivity using private endpoints and IP filters
+6. Secure user access with role based access control (RBAC)
 
 ## Challenges
 
 - Challenge 00: **[Prerequisites - Ready, Set, GO!](Student/Challenge-00.md)**
-	 - Prepare your workstation to work with Azure.
-- Challenge 01: **[Title of Challenge](Student/Challenge-01.md)**
-	 - Description of challenge
-- Challenge 02: **[Title of Challenge](Student/Challenge-02.md)**
-	 - Description of challenge
-- Challenge 03: **[Title of Challenge](Student/Challenge-03.md)**
-	 - Description of challenge
-- Challenge 04: **[Title of Challenge](Student/Challenge-04.md)**
-	 - Description of challenge
-- Challenge 05: **[Title of Challenge](Student/Challenge-05.md)**
-	 - Description of challenge
-- Challenge 06: **[Title of Challenge](Student/Challenge-06.md)**
-	 - Description of challenge
-- Challenge 07: **[Title of Challenge](Student/Challenge-07.md)**
-	 - Description of challenge
+	 - Setup your Elasticsearch and Azure environments
+- Challenge 01: **[Assess & Gather](Student/Challenge-01.md)**
+	 - Gather information about your on-prem Elasticsearch cluster
+- Challenge 02: **[Save your data](Student/Challenge-02.md)**
+	 - Replicate you Elasticsearch data from on-prem to Azure
+- Challenge 03: **[Cutover and Validation](Student/Challenge-03.md)**
+	 - Cutover to and validate your Elasticsearch Service in Azure
+- Challenge 04: **[Secure network connectivity](Student/Challenge-04.md)**
+	 - Secure network connections to your Elasticsearch Service in Azure
+- Challenge 05: **[Secure user access](Student/Challenge-05.md)**
+	 - Add role based access control to your Elasticsearch Service
 
 ## Prerequisites
 
-- Your own Azure subscription with Owner access
-- Visual Studio Code
+- Access to an Azure subscription 
+  - If you don't have one, [Sign Up for Azure HERE](https://azure.microsoft.com/en-us/free/)
+- [Visual Studio Code](https://code.visualstudio.com/) (optional)
 - Azure CLI
-- An AVNET X231 device
 
 ## Contributors
 
-- Jane Q. Public
-- Joe T. Muppet
+- Sajit Sasi
+- Cody Jackson
+- Hemant Malik
+- Greg Crist
+- Morgan Goeller
